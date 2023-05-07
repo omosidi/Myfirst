@@ -5,12 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My CV</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h3><b>Contact Me</b></h3>
     <p>Call me on <a href="tel:2348164916846">08164916846</a></p>
-    <p>Or send a <a href="https://wa.me/2348164916846"> whatsapp message</a></p>
+    <p>Or send a <a href="https://wa.me/2348164916846" target="_blank">whatsapp message</a></p>
     <p>You can also send me a <a href="mailto:omosidi95@gmail.com">mail</a></p>
     <hr>
+    <form action="mailto:omosidi95@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Your Name:</label>
+        <input type="text" name="name" >
+        <br>
+        <label for="email">Your Email:</label>
+        <input type="email" name="email" >
+        <br>
+        <label for="message">Your Message:</label><br>
+        <textarea cols="30" rows="10" name="message"></textarea><br>
+        <input type="submit">
+      </form>
 </body>
 </html>
